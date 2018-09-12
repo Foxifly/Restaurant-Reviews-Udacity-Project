@@ -15,9 +15,9 @@ Then, in a terminal, check the version of Python you have: `python -V`. If you h
 These instructions were taken from [this starter repository](https://github.com/udacity/mws-restaurant-stage-1).
 
 ## Dependencies
-Leaflet: [leafletjs](https://leafletjs.com/)
-Mapbox: with [Mapbox](https://www.mapbox.com/)
-Starter Repository: [Restaurant Reviews App](https://github.com/udacity/mws-restaurant-stage-1)
+- Leaflet: [leafletjs](https://leafletjs.com/)
+- Mapbox: with [Mapbox](https://www.mapbox.com/)
+- Starter Repository: [Restaurant Reviews App](https://github.com/udacity/mws-restaurant-stage-1)
 
 Optionally, you can choose to run this app with the [Google Maps API](https://developers.google.com/maps/documentation/).
 
