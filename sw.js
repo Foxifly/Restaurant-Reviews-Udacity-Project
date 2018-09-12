@@ -1,3 +1,4 @@
+//Service Worker install function
 self.addEventListener("install", event => {
   const urlsToCache = [
     "/",
@@ -26,6 +27,7 @@ self.addEventListener("install", event => {
   );
 });
 
+//service worker fetch function (updates cache)
 self.addEventListener("fetch", event => {
   event.respondWith(
     caches.match(event.request).then((response) => {
