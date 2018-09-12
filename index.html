@@ -37,11 +37,12 @@
           </div>
         </div>
 
-        <div class="restaurant-list-container">
-          <h2 id="results">Results</h3>
-          <ul role="grid" id="restaurants-list"></ul>
+        <div aria-labelledby="results" class="restaurant-list-container">
+          <h2 aria-describedby="restaurants-list" id="results">Results</h2>
+          <ul aria-labelledby="results" role="grid" id="restaurants-list"></ul>
         </div>
       </section>
+
     </main>
 
 
@@ -50,8 +51,8 @@
     <script type="application/javascript" charset="utf-8" src="js/main.js"></script>
     <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&libraries=places&callback=initMap"></script> -->
 
-    <footer id="footer">
-      Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
+    <footer aria-describedby="footer-info" id="footer">
+      <h4 id="footer-info">Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.</h4>
     </footer>
 
   </body>
