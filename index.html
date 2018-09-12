@@ -28,11 +28,13 @@
           <div class="filter-container">
             <h2 id="filter">Filter Results</h2></div>
           <div class="select-container">
+            <label for="neighborhoods-select">Select Neighborhood</label>
             <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
           <option aria-labelledby="filter" value="all">All Neighborhoods</option>
         </select>
+            <label for="cuisines-select">Select Cuisines</label>
             <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
-          <option aria-labelledby="filter" value="all">All Cuisines</option>
+          <option tabindex="0" aria-labelledby="filter" value="all">All Cuisines</option>
         </select>
           </div>
         </div>

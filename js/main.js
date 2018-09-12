@@ -146,6 +146,7 @@ resetRestaurants = (restaurants) => {
  */
 fillRestaurantsHTML = (restaurants = self.restaurants) => {
   const ul = document.getElementById('restaurants-list');
+  ul.setAttribute("tabindex", "0");
   restaurants.forEach(restaurant => {
     ul.append(createRestaurantHTML(restaurant));
   });
@@ -186,16 +187,15 @@ createRestaurantHTML = (restaurant) => {
   more.innerHTML = 'View Details';
   more.href = DBHelper.urlForRestaurant(restaurant);
   more.setAttribute("aria-labelledby", "restaurant-name");
+  more.setAttribute("tabindex", 0);
   li.append(more)
   addAttribute(li);
   return li
 }
-let tabindex = 3;
+
 
 function addAttribute(li) {
   li.setAttribute("role", "gridcell");
-  li.setAttribute("tabindex", tabindex);
-  tabindex++;
 }
 
 /**

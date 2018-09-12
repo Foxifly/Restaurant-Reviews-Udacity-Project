@@ -138,9 +138,9 @@ nav h1 a {
   font-size: 11pt;
   height: 35px;
   letter-spacing: 0;
-  margin: 10px;
+  margin: 20px;
   padding: 0 10px;
-  width: 40%;
+  width: 25%;
 }
 
 @media screen and (max-width:575px) {
@@ -312,7 +312,7 @@ nav h1 a {
 /* #reviews-container {
   padding: 30px 40px 80px;
 } */
-#results, 
+#results,
 #reviews-container h2 {
 	text-align: center;
   color: #f58500;
