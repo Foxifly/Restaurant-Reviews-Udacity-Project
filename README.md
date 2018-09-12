@@ -6,7 +6,7 @@
 
 In Restaurant Reviews Stage 1, I took pre-existing HTML, CSS, and JavaScript to create a responsive and offline-first version of the original code. In this project, I added accessibility ARIA labels and fixed the responsiveness so that the site can work on all devices and platforms. Additionally, I have added a service worker to create an offline user experience.
 
-### Installation
+## Installation
 
 To run this locally, first download or clone this repository.
 
@@ -14,12 +14,12 @@ Then, in a terminal, check the version of Python you have: `python -V`. If you h
 
 These instructions were taken from [this starter repository](https://github.com/udacity/mws-restaurant-stage-1).
 
-### Dependencies
+## Dependencies
 Leaflet: [leafletjs](https://leafletjs.com/)
 Mapbox: with [Mapbox](https://www.mapbox.com/)
 Starter Repository: [Restaurant Reviews App](https://github.com/udacity/mws-restaurant-stage-1)
 
-Optionally, you can choose to run this app with the Google Maps API.
+Optionally, you can choose to run this app with the [Google Maps API](https://developers.google.com/maps/documentation/).
 
 ### Note about ES6
 Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write.
