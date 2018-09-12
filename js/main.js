@@ -190,9 +190,12 @@ createRestaurantHTML = (restaurant) => {
   addAttribute(li);
   return li
 }
+let tabindex = 3;
 
 function addAttribute(li) {
   li.setAttribute("role", "gridcell");
+  li.setAttribute("tabindex", tabindex);
+  tabindex++;
 }
 
 /**

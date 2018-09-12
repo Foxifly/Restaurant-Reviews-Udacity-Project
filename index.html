@@ -13,14 +13,16 @@
 
     <header>
       <nav>
-        <h1 aria-labelledby="main-heading"><a id="main-heading" tabindex="1" href="/">Restaurant Reviews</a></h1>
+        <h1 aria-labelledby="main-heading"><a id="main-heading" tabindex="0" href="/">Restaurant Reviews</a></h1>
       </nav>
     </header>
 
     <main id="maincontent">
-      <section id="map-container">
-        <div role="application" id="map"></div>
+
+      <section aria-describedby="map" id="map-container">
+        <div aria-label="a map of filtered restaurants" role="application" id="map"></div>
       </section>
+
       <section>
         <div class="filter-options">
           <div class="filter-container">
