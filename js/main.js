@@ -179,8 +179,12 @@ createRestaurantHTML = (restaurant) => {
   more.innerHTML = 'View Details';
   more.href = DBHelper.urlForRestaurant(restaurant);
   li.append(more)
-
+  addAttribute(li);
   return li
+}
+
+function addAttribute(li) {
+  li.setAttribute("role", "gridcell");
 }
 
 /**
