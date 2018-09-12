@@ -108,6 +108,7 @@ nav h1 a {
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
   width: 100%;
@@ -119,7 +120,7 @@ nav h1 a {
 	width: 25%;
 }
 .filter-options .select-container {
-	width: 75%;
+	width: 40%;
 }
 
 .filter-options h2 {
@@ -140,7 +141,7 @@ nav h1 a {
   letter-spacing: 0;
   margin: 20px;
   padding: 0 10px;
-  width: 25%;
+  width: 50%;
 }
 
 @media screen and (max-width:575px) {
@@ -148,7 +149,7 @@ nav h1 a {
 		width: 100%;
 	}
 	.filter-options .select-container {
-		width: 100%;
+		width: 95%;
 	}
 	.filter-options select  {
 		width: 80%;
